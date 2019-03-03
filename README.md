@@ -145,6 +145,23 @@ Names get reindexed if an item is added or deleted.
 </script>
 ```
 
+## template
+```
+<script>
+    $(document).ready(function () {
+        $('.repeater').repeater({
+            template: '#repeater_temp',
+        });
+    });
+</script>
+<template id="repeater_temp">
+<div data-repeater-item>
+...
+
+</div>
+</template>
+```
+
 
 ## repeaterVal
 
