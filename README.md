@@ -146,7 +146,7 @@ Names get reindexed if an item is added or deleted.
 ```
 
 ## template
-```
+```html
 <script>
     $(document).ready(function () {
         $('.repeater').repeater({
@@ -156,6 +156,7 @@ Names get reindexed if an item is added or deleted.
 </script>
 <template id="repeater_temp">
 <div data-repeater-item>
+    
 ...
 
 </div>
