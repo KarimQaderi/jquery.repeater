@@ -101,8 +101,10 @@ $.fn.repeater = function (fig) {
             return $filterNested($list.find('[data-repeater-item]'), fig.repeaters);
         };
 
-        var $itemTemplate = $list.find('[data-repeater-item]')
-                                 .first().clone().hide();
+        if (fig.template)
+             var $itemTemplate = $($(fig.template).html()).clone().hide();
+        else
+             var $itemTemplate = $list.find('[data-repeater-item]').first().clone().hide();
 
         var $firstDeleteButton = $filterNested(
             $filterNested($(this).find('[data-repeater-item]'), fig.repeaters)
