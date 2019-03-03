@@ -1,18 +1,11 @@
 {
     "name": "repeater",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "title": "Repeater",
     "author": {
-        "name": "Brian Detering",
-        "url": "http://briandetering.net/",
-        "email": "BDeterin@gmail.com"
+        "name": "Karim Qaderi",
+        "email": "karimqaderi1@gmail.com"
     },
-    "licenses": [
-        {
-            "type": "MIT",
-            "url": "http://opensource.org/licenses/MIT"
-        }
-    ],
     "description": "An interface to add and remove a repeatable group of input elements.",
     "keywords": [
         "input",
@@ -21,9 +14,9 @@
         "form",
         "jquery-plugin"
     ],
-    "docs": "https://github.com/DubFriend/jquery.repeater/blob/master/README.md",
-    "demo": "http://briandetering.net/repeater",
-    "homepage": "https://github.com/DubFriend/jquery.repeater",
+    "docs": "https://github.com/KarimQaderi/jquery.repeater/blob/master/README.md",
+    "demo": "https://github.com/KarimQaderi/jquery.repeater",
+    "homepage": "https://github.com/KarimQaderi/jquery.repeater",
     "dependencies": {
         "jquery": ">=1.11"
     }
